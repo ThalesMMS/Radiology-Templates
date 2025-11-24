@@ -1,12 +1,12 @@
-## TOMOGRAFIA COMPUTADORIZADA DE TÓRAX, ABDOME E PELVE
+**TOMOGRAFIA COMPUTADORIZADA DE TÓRAX, ABDOME E PELVE**
 
-## INDICAÇÃO CLÍNICA: XXX
+**INDICAÇÃO CLÍNICA: XXX**
 
-## TÉCNICA DO EXAME:
+**TÉCNICA DO EXAME:**
 
 Realizadas aquisições volumétricas com posteriores reconstruções multiplanares. Imagens obtidas antes e após o uso de meio de contraste endovenoso.
 
-Dose de radiação estimada (DLP): XXX mGy*cm.
+Dose de radiação estimada (DLP): XXX mGy*cm.*
 
 TÓRAX:
 

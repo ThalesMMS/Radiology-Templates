@@ -1,13 +1,13 @@
 
-## INDICAÇÃO CLÍNICA: XXX
+INDICAÇÃO CLÍNICA: XXX
 
-## TÉCNICA DO EXAME:
+TÉCNICA DO EXAME:
 
 Aquisição volumétrica em tomógrafo multislice, antes e após a administração do meio de contraste endovenoso.
 
 Dose de radiação estimada (DLP): XXX mGycm.
 
-## ASPECTOS OBSERVADOS:
+ASPECTOS OBSERVADOS:
 
 Fígado de morfologia, contornos e dimensões preservadas com coeficientes de atenuação normais.
 

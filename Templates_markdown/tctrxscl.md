@@ -1,14 +1,14 @@
-## TOMOGRAFIA COMPUTADORIZADA DE TÓRAX
+**TOMOGRAFIA COMPUTADORIZADA DE TÓRAX**
 
-## INDICAÇÃO CLÍNICA: XXX
+**INDICAÇÃO CLÍNICA: XXX**
 
-## TÉCNICA DO EXAME:
+**TÉCNICA DO EXAME:**
 
 Realizadas aquisições volumétricas com posteriores reconstruções multiplanares. Imagens obtidas sem uso de meio de contraste endovenoso.
 
-Dose de radiação estimada (DLP): XXX mGy*cm.
+Dose de radiação estimada (DLP): XXX mGy*cm.*
 
-## ASPECTOS OBSERVADOS:
+**ASPECTOS OBSERVADOS:**
 
 Parênquima pulmonar com densidade tomográfica usual, sem sinais de nódulos ou consolidações.
 
@@ -29,4 +29,4 @@ Estrutura óssea preservada.
 **IMPRESSÃO:**
 Ausência de achados de significado patológico detectáveis por este método de imagem.
 
-A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.
+*A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.*

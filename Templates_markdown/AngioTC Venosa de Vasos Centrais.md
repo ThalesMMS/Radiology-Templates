@@ -33,5 +33,4 @@ Veias femoral, ilíaca externa e ilíaca comum direitas pérvias, normocontrasta
 **IMPRESSÃO:**
 **XXX﻿**
 
-*A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.* 
-
+*A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.** *

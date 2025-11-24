@@ -1,4 +1,4 @@
-## TOMOGRAFIA COMPUTADORIZADA DE CRÂNIO
+**TOMOGRAFIA COMPUTADORIZADA DE CRÂNIO**
 
 Informe clínico: X.
 
@@ -21,7 +21,7 @@ Ausência de achados de significado patológico detectáveis por este método de
 
 A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.
 
-## TOMOGRAFIA COMPUTADORIZADA DE CRÂNIO
+**TOMOGRAFIA COMPUTADORIZADA DE CRÂNIO**
 
 **Técnica do exame:**
 Realizadas aquisições volumétricas com posteriores reconstruções multiplanares. Imagens obtidas sem uso de meio de contraste endovenoso.
@@ -39,7 +39,7 @@ Ausência de achados de significado patológico detectáveis por este método de
 
 A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.
 
-## TOMOGRAFIA COMPUTADORIZADA DE TÓRAX
+**TOMOGRAFIA COMPUTADORIZADA DE TÓRAX**
 
 **Técnica do exame:**
 Realizadas aquisições volumétricas com posteriores reconstruções multiplanares. Imagens obtidas sem uso de meio de contraste endovenoso.
@@ -86,7 +86,7 @@ Ausência de alterações significativas identificáveis por este método de ima
 
 A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.
 
-## TOMOGRAFIA COMPUTADORIZADA DE TÓRAX, ABDOME E PELVE
+**TOMOGRAFIA COMPUTADORIZADA DE TÓRAX, ABDOME E PELVE**
 
 Informe clínico: X.
 
@@ -124,7 +124,7 @@ Ausência de alterações significativas identificáveis por este método de ima
 
 A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.
 
-## TOMOGRAFIA DE TÓRAX, ABDOME E PELVE
+**TOMOGRAFIA DE TÓRAX, ABDOME E PELVE**
 
 **Técnica do exame:**
 Realizadas aquisições volumétricas, com posteriores reconstruções multiplanares. Imagens obtidas antes e após o uso do meio de contraste endovenoso.
@@ -152,4 +152,4 @@ Demais estruturas pélvicas sem particularidades.
 Estrutura óssea:
 Estrutura óssea íntegra.
 
-A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.
+*A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.*
