@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script para converter arquivos .docx e .rtf para markdown preservando formatação.
+Script to convert .docx and .rtf files to Markdown while preserving formatting.
 """
 
 import os
@@ -11,20 +11,20 @@ import re
 try:
     from docx import Document
 except ImportError:
-    print("Instalando python-docx...")
+    print("Installing python-docx...")
     os.system(f"{sys.executable} -m pip install python-docx")
     from docx import Document
 
 try:
     from striprtf.striprtf import rtf_to_text
 except ImportError:
-    print("Instalando striprtf...")
+    print("Installing striprtf...")
     os.system(f"{sys.executable} -m pip install striprtf")
     from striprtf.striprtf import rtf_to_text
 
 
 def convert_docx_to_markdown(docx_path):
-    """Converte um arquivo .docx para markdown preservando formatação."""
+    """Convert a .docx file to Markdown preserving formatting."""
     try:
         doc = Document(docx_path)
         markdown_lines = []
@@ -34,14 +34,14 @@ def convert_docx_to_markdown(docx_path):
                 markdown_lines.append("")
                 continue
             
-            # Processa runs para preservar formatação
+            # Process runs to preserve formatting
             text_parts = []
             for run in paragraph.runs:
                 text = run.text
                 if not text:
                     continue
 
-                # Aplica formatação em Markdown puro (sem HTML)
+                # Apply formatting using pure Markdown (no HTML)
                 if run.bold:
                     text = f"**{text}**"
                 if run.italic:
@@ -51,16 +51,16 @@ def convert_docx_to_markdown(docx_path):
 
                 text_parts.append(text)
             
-            # Se não há runs formatados, usa o texto do parágrafo
+            # If there are no formatted runs, fall back to the paragraph text
             if not text_parts:
                 para_text = paragraph.text
             else:
                 para_text = "".join(text_parts)
             
-            # Verifica estilo de parágrafo
+            # Inspect paragraph style
             style = paragraph.style.name.lower()
             
-            # Títulos
+            # Headings
             if 'heading' in style or 'title' in style:
                 level = 1
                 if 'heading 1' in style or 'title' in style:
@@ -80,16 +80,16 @@ def convert_docx_to_markdown(docx_path):
             else:
                 markdown_lines.append(para_text)
         
-        # Processa tabelas
+        # Process tables
         for table in doc.tables:
             markdown_lines.append("")
-            # Cabeçalho
+            # Header
             header_row = table.rows[0]
             header_cells = [cell.text.strip() for cell in header_row.cells]
             markdown_lines.append("| " + " | ".join(header_cells) + " |")
             markdown_lines.append("| " + " | ".join(["---"] * len(header_cells)) + " |")
             
-            # Linhas de dados
+            # Data rows
             for row in table.rows[1:]:
                 cells = [cell.text.strip() for cell in row.cells]
                 markdown_lines.append("| " + " | ".join(cells) + " |")
@@ -98,16 +98,16 @@ def convert_docx_to_markdown(docx_path):
         return "\n".join(markdown_lines)
     
     except Exception as e:
-        return f"# Erro ao converter {docx_path}\n\nErro: {str(e)}"
+        return f"# Error converting {docx_path}\n\nError: {str(e)}"
 
 
 def convert_rtf_to_markdown(rtf_path):
-    """Converte um arquivo .rtf para markdown preservando formatação básica."""
+    """Convert an .rtf file to Markdown preserving basic formatting."""
     try:
         with open(rtf_path, 'rb') as f:
             rtf_content = f.read()
         
-        # Tenta diferentes encodings
+        # Try different encodings
         encodings = ['latin-1', 'cp1252', 'iso-8859-1', 'utf-8']
         rtf_text = None
         
@@ -124,41 +124,41 @@ def convert_rtf_to_markdown(rtf_path):
         if rtf_text is None:
             rtf_text = rtf_content.decode('latin-1', errors='ignore')
         
-        # Usa striprtf para extrair texto limpo
+        # Use striprtf to extract clean text
         try:
             plain_text = rtf_to_text(rtf_text)
         except Exception as e:
-            # Fallback: extração manual básica removendo comandos RTF
+            # Fallback: basic manual extraction removing RTF commands
             plain_text = rtf_text
-            # Remove grupos RTF vazios primeiro
+            # Remove empty RTF groups first
             while '{' in plain_text and '}' in plain_text:
                 plain_text = re.sub(r'\{[^{}]*\}', '', plain_text)
-            # Remove comandos RTF
+            # Remove RTF commands
             plain_text = re.sub(r'\\[a-z]+\d*\s*', ' ', plain_text)
             plain_text = re.sub(r'\\[{}]', '', plain_text)
-            # Remove caracteres especiais RTF
+            # Remove RTF special characters
             plain_text = re.sub(r'\\\'[0-9a-f]{2}', '', plain_text)
-            # Remove números soltos que são comandos RTF
+            # Remove stray numbers that belong to RTF commands
             plain_text = re.sub(r'\s+\d+\s+', ' ', plain_text)
         
-        # Limpa o texto extraído
-        # Remove linhas que são apenas nomes de fontes ou comandos
+        # Clean extracted text
+        # Remove lines that are only font names or commands
         lines = plain_text.split('\n')
         cleaned_lines = []
         
         for line in lines:
             line = line.strip()
             
-            # Remove caracteres de controle
+            # Strip control characters
             line = re.sub(r'[\x00-\x1f\x7f-\x9f]', '', line)
             line = line.strip()
             
-            # Remove linhas que são apenas artefatos
+            # Drop lines that are only artifacts
             if not line:
                 cleaned_lines.append("")
                 continue
             
-            # Remove linhas que são apenas nomes de fontes ou comandos RTF
+            # Remove lines that are only font names or RTF commands
             if (line.lower() in ['times new roman', 'arial', 'calibri', 'helvetica', 
                                  'trebuchet ms', 'cambria', 'times'] or
                 re.match(r'^[a-z\s]+\}?$', line.lower()) or
@@ -167,20 +167,20 @@ def convert_rtf_to_markdown(rtf_path):
                 (len(line) < 3 and not line.isalnum())):
                 continue
             
-            # Remove artefatos de conversão RTF
-            line = re.sub(r'\s+', ' ', line)  # Múltiplos espaços
-            line = re.sub(r'^[a-z]+\s+[a-z]+\s+', '', line)  # Remove palavras soltas no início
-            line = re.sub(r'\s*\}\s*$', '', line)  # Remove chaves no final
-            line = re.sub(r'^\s*\{\s*', '', line)  # Remove chaves no início
+            # Remove RTF conversion artifacts
+            line = re.sub(r'\s+', ' ', line)  # Multiple spaces
+            line = re.sub(r'^[a-z]+\s+[a-z]+\s+', '', line)  # Remove stray words at start
+            line = re.sub(r'\s*\}\s*$', '', line)  # Remove braces at end
+            line = re.sub(r'^\s*\{\s*', '', line)  # Remove braces at start
             
-            # Remove números soltos no início/fim
+            # Remove stray numbers at start/end
             line = re.sub(r'^\s*[\d\-]+\s+', '', line)
             line = re.sub(r'\s+[\d\-]+\s*$', '', line)
             
             if line.strip():
                 cleaned_lines.append(line.strip())
         
-        # Processa as linhas limpas e aplica formatação
+        # Process cleaned lines and apply formatting
         markdown_lines = []
         
         for line in cleaned_lines:
@@ -188,26 +188,26 @@ def convert_rtf_to_markdown(rtf_path):
                 markdown_lines.append("")
                 continue
             
-            # Detecta títulos principais (maiúsculas, sem ponto final, contém palavras-chave)
+            # Detect primary headings (uppercase, no trailing period, contains keywords)
             if (line.isupper() and 15 < len(line) < 120 and 
                 not line.endswith('.') and 
                 ('TOMOGRAFIA' in line or 'ANGIO' in line or 'COMPUTADORIZADA' in line)):
                 markdown_lines.append(f"## {line}")
-            # Detecta seções importantes
+            # Detect important sections
             elif any(keyword in line.upper() for keyword in 
                     ['INDICAÇÃO CLÍNICA', 'TÉCNICA DO EXAME', 'ASPECTOS OBSERVADOS', 'IMPRESSÃO']):
-                # Se está em maiúsculas, é título
+                # Uppercase text is a heading
                 if line.isupper() and len(line) > 10:
                     markdown_lines.append(f"## {line}")
                 else:
-                    # Se começa com palavra-chave, aplica negrito
+                    # If it starts with a keyword, make it bold
                     for keyword in ['INDICAÇÃO', 'TÉCNICA', 'ASPECTOS', 'IMPRESSÃO']:
                         if line.upper().startswith(keyword):
                             markdown_lines.append(f"**{line}**")
                             break
                     else:
                         markdown_lines.append(line)
-            # Detecta texto em itálico (geralmente notas de rodapé)
+            # Detect italic text (usually footnotes)
             elif ('probabilidade' in line.lower() or 
                   'médico' in line.lower() or 
                   'diagnóstica' in line.lower()):
@@ -215,7 +215,7 @@ def convert_rtf_to_markdown(rtf_path):
             else:
                 markdown_lines.append(line)
         
-        # Limpa linhas vazias excessivas
+        # Remove excessive empty lines
         result = []
         prev_empty = False
         for line in markdown_lines:
@@ -231,46 +231,46 @@ def convert_rtf_to_markdown(rtf_path):
     
     except Exception as e:
         import traceback
-        return f"# Erro ao converter {rtf_path}\n\nErro: {str(e)}\n\nTraceback: {traceback.format_exc()}"
+        return f"# Error converting {rtf_path}\n\nError: {str(e)}\n\nTraceback: {traceback.format_exc()}"
 
 
 def main():
-    """Função principal que processa todos os arquivos na pasta Reports."""
-    reports_dir = Path(__file__).parent / "Reports"
+    """Main function that processes all files inside the Reports folder."""
+    reports_dir = Path(__file__).parent / "Templates"
     
     if not reports_dir.exists():
-        print(f"Erro: Pasta {reports_dir} não encontrada!")
+        print(f"Error: Folder {reports_dir} not found!")
         return
     
-    # Cria pasta para markdown
-    markdown_dir = reports_dir.parent / "Reports_markdown"
+    # Create folder for Markdown output
+    markdown_dir = reports_dir.parent / "Templates_markdown"
     markdown_dir.mkdir(exist_ok=True)
     
-    # Processa arquivos .docx
+    # Process .docx files
     docx_files = list(reports_dir.glob("*.docx"))
-    print(f"Encontrados {len(docx_files)} arquivos .docx")
+    print(f"Found {len(docx_files)} .docx files")
     
     for docx_file in docx_files:
-        print(f"Convertendo {docx_file.name}...")
+        print(f"Converting {docx_file.name}...")
         markdown_content = convert_docx_to_markdown(docx_file)
         output_file = markdown_dir / f"{docx_file.stem}.md"
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(markdown_content)
-        print(f"  ✓ Salvo em {output_file.name}")
+        print(f"  ✓ Saved to {output_file.name}")
     
-    # Processa arquivos .rtf
+    # Process .rtf files
     rtf_files = list(reports_dir.glob("*.rtf"))
-    print(f"\nEncontrados {len(rtf_files)} arquivos .rtf")
+    print(f"\nFound {len(rtf_files)} .rtf files")
     
     for rtf_file in rtf_files:
-        print(f"Convertendo {rtf_file.name}...")
+        print(f"Converting {rtf_file.name}...")
         markdown_content = convert_rtf_to_markdown(rtf_file)
         output_file = markdown_dir / f"{rtf_file.stem}.md"
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(markdown_content)
-        print(f"  ✓ Salvo em {output_file.name}")
+        print(f"  ✓ Saved to {output_file.name}")
     
-    print(f"\n✓ Conversão concluída! Arquivos salvos em {markdown_dir}")
+    print(f"\n✓ Conversion finished! Files saved to {markdown_dir}")
 
 
 if __name__ == "__main__":

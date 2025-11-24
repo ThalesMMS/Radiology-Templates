@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Treat template report sources as vendored so they do not affect language stats
+Templates/** linguist-vendored
+Templates_markdown/** linguist-vendored
