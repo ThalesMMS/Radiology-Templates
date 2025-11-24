@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build an index of laudo files in Templates_docx, Templates_markdown, and Templates_txt.
+Build an index of report files in Templates_docx, Templates_markdown, and Templates_txt.
 The index is written to reports_index.json in the repo root.
 """
 

@@ -8,6 +8,8 @@ anyhow = "1"
 docx-rust = "0.1.10"
 regex = "1"
 tempfile = "3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
 
 [[bin]]
 name = "convert_to_docx"
@@ -24,3 +26,11 @@ path = "src/bin/convert_to_txt.rs"
 [[bin]]
 name = "convert_txt_to_markdown"
 path = "src/bin/convert_txt_to_markdown.rs"
+
+[[bin]]
+name = "generate_index"
+path = "src/bin/generate_index.rs"
+
+[[bin]]
+name = "backup"
+path = "src/bin/backup.rs"

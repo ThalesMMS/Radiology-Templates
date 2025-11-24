@@ -18,6 +18,7 @@ Requires:
 
 import argparse
 import filecmp
+import json
 import os
 import shutil
 import subprocess
@@ -27,18 +28,15 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PY_SRC_DIR = "python_src"
-PY_SCRIPTS = [
-    "convert_to_docx.py",
-    "convert_to_markdown.py",
-    "convert_to_txt.py",
-    "convert_txt_to_markdown.py",
-]
+PY_ENTRYPOINT = "run.py"
 
 RUST_BINS = [
     "convert_to_docx",
     "convert_to_markdown",
     "convert_to_txt",
     "convert_txt_to_markdown",
+    "generate_index",
+    "backup",
 ]
 
 
@@ -105,6 +103,12 @@ def rust_bin_paths(rust_bin_dir: Path):
     return [rust_bin_dir / f"{name}{suffix}" for name in RUST_BINS]
 
 
+def rs_bin_in_tmp(tmp_dir: Path, bin_name: str) -> Path:
+    """Resolve the path to a Rust binary inside the temp env bin/ folder."""
+    suffix = ".exe" if os.name == "nt" else ""
+    return tmp_dir / "bin" / f"{bin_name}{suffix}"
+
+
 def ensure_rust_binaries(project_root: Path, rust_bin_dir: Path):
     """Ensure Rust binaries exist; runs `cargo build` if anything is missing."""
     missing_before = [p for p in rust_bin_paths(rust_bin_dir) if not p.exists()]
@@ -127,10 +131,9 @@ def ensure_rust_binaries(project_root: Path, rust_bin_dir: Path):
 
 
 def copy_python_sources(project_root: Path, target_dir: Path):
-    """Copy python_src package and entrypoint scripts to a temp dir."""
+    """Copy python_src package and the unified entrypoint to a temp dir."""
     shutil.copytree(project_root / PY_SRC_DIR, target_dir / PY_SRC_DIR)
-    for script in PY_SCRIPTS:
-        shutil.copy2(project_root / script, target_dir / script)
+    shutil.copy2(project_root / PY_ENTRYPOINT, target_dir / PY_ENTRYPOINT)
 
 
 def setup_temp_env(project_root: Path, py_or_rs: str, rust_bin_dir: Path) -> Path:
@@ -154,6 +157,8 @@ def setup_temp_env(project_root: Path, py_or_rs: str, rust_bin_dir: Path) -> Pat
         # Copy Python sources and entrypoints
         copy_python_sources(project_root, tmp)
     else:
+        bin_dir = tmp / "bin"
+        bin_dir.mkdir(parents=True, exist_ok=True)
         # Copy Python sources (needed for convert_to_markdown.py in this flow)
         copy_python_sources(project_root, tmp)
         # Copy Rust binaries (only the ones that exist)
@@ -162,7 +167,7 @@ def setup_temp_env(project_root: Path, py_or_rs: str, rust_bin_dir: Path) -> Pat
             if os.name == "nt":
                 src_bin = rust_bin_dir / (bin_name + ".exe")
             if src_bin.exists():
-                shutil.copy2(src_bin, tmp / src_bin.name)
+                shutil.copy2(src_bin, bin_dir / src_bin.name)
 
     return tmp
 
@@ -173,10 +178,10 @@ def test_convert_to_markdown(project_root: Path, rust_bin_dir: Path) -> bool:
     tmp_rs = setup_temp_env(project_root, "rs", rust_bin_dir)
 
     # Python
-    run_cmd([sys.executable, "convert_to_markdown.py"], cwd=tmp_py)
+    run_cmd([sys.executable, PY_ENTRYPOINT, "convert_to_markdown"], cwd=tmp_py)
 
     # Rust
-    rs_bin = tmp_rs / ("convert_to_markdown.exe" if os.name == "nt" else "convert_to_markdown")
+    rs_bin = rs_bin_in_tmp(tmp_rs, "convert_to_markdown")
     run_cmd([str(rs_bin)], cwd=tmp_rs)
 
     py_md_dir = tmp_py / "Templates_markdown"
@@ -191,10 +196,10 @@ def test_convert_to_txt_markdown_flow(project_root: Path, rust_bin_dir: Path) ->
     tmp_rs = setup_temp_env(project_root, "rs", rust_bin_dir)
 
     # Python
-    run_cmd([sys.executable, "convert_to_txt.py"], cwd=tmp_py)
+    run_cmd([sys.executable, PY_ENTRYPOINT, "convert_to_txt"], cwd=tmp_py)
 
     # Rust
-    rs_bin = tmp_rs / ("convert_to_txt.exe" if os.name == "nt" else "convert_to_txt")
+    rs_bin = rs_bin_in_tmp(tmp_rs, "convert_to_txt")
     run_cmd([str(rs_bin)], cwd=tmp_rs)
 
     py_txt_dir = tmp_py / "Templates_txt"
@@ -209,10 +214,10 @@ def test_convert_to_txt_from_docx(project_root: Path, rust_bin_dir: Path) -> boo
     tmp_rs = setup_temp_env(project_root, "rs", rust_bin_dir)
 
     # Python
-    run_cmd([sys.executable, "convert_to_txt.py", "--from-docx"], cwd=tmp_py)
+    run_cmd([sys.executable, PY_ENTRYPOINT, "convert_to_txt", "--from-docx"], cwd=tmp_py)
 
     # Rust
-    rs_bin = tmp_rs / ("convert_to_txt.exe" if os.name == "nt" else "convert_to_txt")
+    rs_bin = rs_bin_in_tmp(tmp_rs, "convert_to_txt")
     run_cmd([str(rs_bin), "--from-docx"], cwd=tmp_rs)
 
     py_txt_dir = tmp_py / "Templates_txt"
@@ -227,10 +232,10 @@ def test_convert_txt_to_markdown(project_root: Path, rust_bin_dir: Path) -> bool
     tmp_rs = setup_temp_env(project_root, "rs", rust_bin_dir)
 
     # Python
-    run_cmd([sys.executable, "convert_txt_to_markdown.py"], cwd=tmp_py)
+    run_cmd([sys.executable, PY_ENTRYPOINT, "convert_txt_to_markdown"], cwd=tmp_py)
 
     # Rust
-    rs_bin = tmp_rs / ("convert_txt_to_markdown.exe" if os.name == "nt" else "convert_txt_to_markdown")
+    rs_bin = rs_bin_in_tmp(tmp_rs, "convert_txt_to_markdown")
     run_cmd([str(rs_bin)], cwd=tmp_rs)
 
     py_md_dir = tmp_py / "Templates_markdown"
@@ -255,20 +260,96 @@ def test_convert_to_docx_roundtrip(project_root: Path, rust_bin_dir: Path) -> bo
     # Python environment
     tmp_py = setup_temp_env(project_root, "py", rust_bin_dir)
     # In this env we need both convert_to_docx.py and convert_to_markdown.py
-    run_cmd([sys.executable, "convert_to_docx.py"], cwd=tmp_py)
+    run_cmd([sys.executable, PY_ENTRYPOINT, "convert_to_docx"], cwd=tmp_py)
     # Then convert the generated DOCX back to md
-    run_cmd([sys.executable, "convert_to_markdown.py"], cwd=tmp_py)
+    run_cmd([sys.executable, PY_ENTRYPOINT, "convert_to_markdown"], cwd=tmp_py)
     py_md_dir = tmp_py / "Templates_markdown"
 
     # Rust environment
     tmp_rs = setup_temp_env(project_root, "rs", rust_bin_dir)
-    rs_bin = tmp_rs / ("convert_to_docx.exe" if os.name == "nt" else "convert_to_docx")
+    rs_bin = rs_bin_in_tmp(tmp_rs, "convert_to_docx")
     run_cmd([str(rs_bin)], cwd=tmp_rs)
     # Now always use the Python convert_to_markdown.py script
-    run_cmd([sys.executable, "convert_to_markdown.py"], cwd=tmp_rs)
+    run_cmd([sys.executable, PY_ENTRYPOINT, "convert_to_markdown"], cwd=tmp_rs)
     rs_md_dir = tmp_rs / "Templates_markdown"
 
     return compare_text_dirs(py_md_dir, rs_md_dir, ".md")
+
+
+def test_generate_index(project_root: Path, rust_bin_dir: Path) -> bool:
+    print("\n=== Test: generate_index (templates -> reports_index.json) ===")
+    tmp_py = setup_temp_env(project_root, "py", rust_bin_dir)
+    tmp_rs = setup_temp_env(project_root, "rs", rust_bin_dir)
+
+    # Python
+    run_cmd([sys.executable, PY_ENTRYPOINT, "generate_index"], cwd=tmp_py)
+    py_index = json.loads((tmp_py / "reports_index.json").read_text(encoding="utf-8"))
+
+    # Rust
+    rs_bin = rs_bin_in_tmp(tmp_rs, "generate_index")
+    run_cmd([str(rs_bin)], cwd=tmp_rs)
+    rs_index = json.loads((tmp_rs / "reports_index.json").read_text(encoding="utf-8"))
+
+    if py_index != rs_index:
+        print("FAIL: reports_index.json content differs between Python and Rust")
+        return False
+    print("OK: reports_index.json matches")
+    return True
+
+
+def list_files_recursive(root: Path):
+    return sorted(
+        p.relative_to(root)
+        for p in root.rglob("*")
+        if p.is_file()
+    )
+
+
+def compare_dirs(dir_a: Path, dir_b: Path) -> bool:
+    files_a = list_files_recursive(dir_a)
+    files_b = list_files_recursive(dir_b)
+
+    if files_a != files_b:
+        print("FAIL: backup file sets differ")
+        print("Python:", [str(p) for p in files_a])
+        print("Rust  :", [str(p) for p in files_b])
+        return False
+
+    ok = True
+    for rel in files_a:
+        pa = dir_a / rel
+        pb = dir_b / rel
+        if not filecmp.cmp(pa, pb, shallow=False):
+            print(f"FAIL: backup content differs for {rel}")
+            ok = False
+    if ok:
+        print("OK: backup folder matches")
+    return ok
+
+
+def test_backup(project_root: Path, rust_bin_dir: Path) -> bool:
+    print("\n=== Test: backup (move unindexed files) ===")
+    tmp_py = setup_temp_env(project_root, "py", rust_bin_dir)
+    tmp_rs = setup_temp_env(project_root, "rs", rust_bin_dir)
+
+    # First, generate an index in each env
+    run_cmd([sys.executable, PY_ENTRYPOINT, "generate_index"], cwd=tmp_py)
+    run_cmd([sys.executable, PY_ENTRYPOINT, "generate_index"], cwd=tmp_rs)
+
+    # Add an extra markdown file not present in the index
+    extra_name = "extra_test.md"
+    for root in (tmp_py, tmp_rs):
+        extra_path = root / "Templates_markdown" / extra_name
+        extra_path.write_text("extra content for backup test\n", encoding="utf-8")
+
+    # Run backup
+    run_cmd([sys.executable, PY_ENTRYPOINT, "backup"], cwd=tmp_py)
+    rs_bin = rs_bin_in_tmp(tmp_rs, "backup")
+    run_cmd([str(rs_bin)], cwd=tmp_rs)
+
+    py_backup = tmp_py / "backup"
+    rs_backup = tmp_rs / "backup"
+    return compare_dirs(py_backup, rs_backup)
 
 
 def main():
@@ -303,6 +384,8 @@ def main():
         ("convert_to_txt (--from-docx)", test_convert_to_txt_from_docx),
         ("convert_txt_to_markdown", test_convert_txt_to_markdown),
         ("convert_to_docx (roundtrip)", test_convert_to_docx_roundtrip),
+        ("generate_index", test_generate_index),
+        ("backup", test_backup),
     ]
 
     all_ok = True
