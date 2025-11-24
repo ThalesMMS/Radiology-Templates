@@ -1,9 +1,9 @@
-**TOMOGRAFIA COMPUTADORIZADA DE ABDOME E PELVE**
+TOMOGRAFIA COMPUTADORIZADA DE ABDOME E PELVE
 
-**Técnica do exame:**
+Técnica do exame:
 Aquisições volumétricas com reconstruções multiplanares, antes e após o uso de contraste endovenoso.
 
-**Aspectos observados:**
+Aspectos observados:
 
 Fígado de dimensões usuais, contornos regulares e densidade homogênea, com realce uniforme pelo meio de contraste. Veia porta e veias hepáticas pérvias, de calibre normal.
 Ausência de sinais de dilatação de vias biliares intra e extra-hepáticas.
@@ -20,8 +20,8 @@ Ausência de linfonodomegalias abdominais, pélvicas e/ou inguinais.
 Estruturas vasculares de aspecto normal.
 Estrutura óssea íntegra.
 
-**IMPRESSÃO: **
-**Ausência de alterações significativas identificáveis por este método de imagem.**
+IMPRESSÃO: 
+Ausência de alterações significativas identificáveis por este método de imagem.
 
-*A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.* 
+A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações. 
 
