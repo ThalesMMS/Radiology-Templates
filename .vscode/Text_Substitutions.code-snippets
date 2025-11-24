@@ -1,0 +1,956 @@
+{
+  "Aspectos observados:": {
+    "prefix": "#a",
+    "body": "Aspectos observados:",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ateromatose aórtica.": {
+    "prefix": "#aa",
+    "body": "Ateromatose aórtica.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ateromatose aórtica e coronariana.": {
+    "prefix": "#aac",
+    "body": "Ateromatose aórtica e coronariana.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ateromatose aortoilíaca.": {
+    "prefix": "#aai",
+    "body": "Ateromatose aortoilíaca.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ateromatose aórtica e supra-aórtica.": {
+    "prefix": "#aas",
+    "body": "Ateromatose aórtica e supra-aórtica.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ateromatose aórtica, supra-aórtica e coronariana.": {
+    "prefix": "#aasc",
+    "body": "Ateromatose aórtica, supra-aórtica e coronariana.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ateromatose nas artérias carótidas internas.": {
+    "prefix": "#ac",
+    "body": "Ateromatose nas artérias carótidas internas.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Área cardíaca aumentada.": {
+    "prefix": "#aca",
+    "body": "Área cardíaca aumentada.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cardiomegalia.": {
+    "prefix": "#acac",
+    "body": "Cardiomegalia.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Achado adicional:": {
+    "prefix": "#achado",
+    "body": "Achado adicional:",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Achados adicionais:": {
+    "prefix": "#achados",
+    "body": "Achados adicionais:",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ateromatose coronariana.": {
+    "prefix": "#aco",
+    "body": "Ateromatose coronariana.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ateromatose carotideana interna bilateral e no sistema vertebrobasilar.": {
+    "prefix": "#acv",
+    "body": "Ateromatose carotideana interna bilateral e no sistema vertebrobasilar.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Adrenais de aspecto anatômico.": {
+    "prefix": "#adrenais",
+    "body": "Adrenais de aspecto anatômico.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Alças intestinais com calibres e repleção habituais.": {
+    "prefix": "#alcas",
+    "body": "Alças intestinais com calibres e repleção habituais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Análise comparativa com o estudo do dia X.": {
+    "prefix": "#analise",
+    "body": "Análise comparativa com o estudo do dia X.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Análise comparativa com os estudos dos dias XXX e XXX.": {
+    "prefix": "#analises",
+    "body": "Análise comparativa com os estudos dos dias XXX e XXX.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Hipoatenuação do conteúdo sanguíneo intravascular em comparação com as paredes vasculares, inferindo anemia.": {
+    "prefix": "#anemia",
+    "body": "Hipoatenuação do conteúdo sanguíneo intravascular em comparação com as paredes vasculares, inferindo anemia.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Apêndice cecal de aspecto anatômico.": {
+    "prefix": "#ap",
+    "body": "Apêndice cecal de aspecto anatômico.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ausência de sinais inflamatórios pericecais.": {
+    "prefix": "#ap2",
+    "body": "Ausência de sinais inflamatórios pericecais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Apêndice cecal repleto, com calibre aumentado, medindo XXX mm, em situação infracecal superficial, associado a densificação dos planos adiposos adjacentes, espessamento da fáscia lateroconal direita e pequena quantidade de líquido livre nessa região. Esses achados são compatíveis com apendicite aguda não complicada.": {
+    "prefix": "#apendicite",
+    "body": "Apêndice cecal repleto, com calibre aumentado, medindo XXX mm, em situação infracecal superficial, associado a densificação dos planos adiposos adjacentes, espessamento da fáscia lateroconal direita e pequena quantidade de líquido livre nessa região. Esses achados são compatíveis com apendicite aguda não complicada.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Sinais de artroplastia total do quadril esquerdo com material metálico apresentando luxação proximal do componente intramedular da diáfise femoral em relação ao componente acetabular em cerca de 2,3 cm. Calcificações de partes moles localizada na face medial da região do trocanter menor, medindo até 1,9 cm.": {
+    "prefix": "#artroplastiaquadril",
+    "body": "Sinais de artroplastia total do quadril esquerdo com material metálico apresentando luxação proximal do componente intramedular da diáfise femoral em relação ao componente acetabular em cerca de 2,3 cm. Calcificações de partes moles localizada na face medial da região do trocanter menor, medindo até 1,9 cm.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Tênues atelectasias subpleurais posteriores bilaterais.": {
+    "prefix": "#atelec",
+    "body": "Tênues atelectasias subpleurais posteriores bilaterais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Opacidades atelectásicas subpleurais posterobasais bilaterais.": {
+    "prefix": "#atelec2",
+    "body": "Opacidades atelectásicas subpleurais posterobasais bilaterais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequeno baço acessório junto ao terço superior.": {
+    "prefix": "#bacess",
+    "body": "Pequeno baço acessório junto ao terço superior.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Baço de dimensões usuais, contornos regulares e densidade normal.": {
+    "prefix": "#baco",
+    "body": "Baço de dimensões usuais, contornos regulares e densidade normal.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Bandas parenquimatosas atelectásicas bibasais.": {
+    "prefix": "#bandas",
+    "body": "Bandas parenquimatosas atelectásicas bibasais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Bexiga com forma, contornos e capacidade normais. Paredes com espessura usual.": {
+    "prefix": "#bx",
+    "body": "Bexiga com forma, contornos e capacidade normais. Paredes com espessura usual.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Bexiga vazia, contendo cateter com balonete insuflado no seu interior.": {
+    "prefix": "#bxc",
+    "body": "Bexiga vazia, contendo cateter com balonete insuflado no seu interior.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Bexiga pouco repleta, com forma e contornos normais.": {
+    "prefix": "#bxp",
+    "body": "Bexiga pouco repleta, com forma e contornos normais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Bexiga vazia.": {
+    "prefix": "#bxv",
+    "body": "Bexiga vazia.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cálculo no terço XXX do rim XXX, medindo XXX mm.": {
+    "prefix": "#calc",
+    "body": "Cálculo no terço XXX do rim XXX, medindo XXX mm.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cálculo no terço XXX do rim XXX, medindo XXX (densidade de XXX UH).": {
+    "prefix": "#calculo",
+    "body": "Cálculo no terço XXX do rim XXX, medindo XXX (densidade de XXX UH).",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ascite moderada, associada a múltiplos nódulos peritoneais e omentais difusos e confluentes formando massas no omento, condicionando irregularidades nos contornos do fígado e exercendo efeito de massa sobre algumas alças intestinais, sem sinais de obstrução mecânica. Esses achados são compatíveis com carcinomatose.": {
+    "prefix": "#carcinomatose",
+    "body": "Ascite moderada, associada a múltiplos nódulos peritoneais e omentais difusos e confluentes formando massas no omento, condicionando irregularidades nos contornos do fígado e exercendo efeito de massa sobre algumas alças intestinais, sem sinais de obstrução mecânica. Esses achados são compatíveis com carcinomatose.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Septo pelúcido duplo cavitado ao longo de toda a sua extensão, compatível com cavum septum pellucidum (variação anatômica).": {
+    "prefix": "#cavum",
+    "body": "Septo pelúcido duplo cavitado ao longo de toda a sua extensão, compatível com cavum septum pellucidum (variação anatômica).",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cateter venoso central com extremidade no interior da veia cava superior.": {
+    "prefix": "#ccentral",
+    "body": "Cateter venoso central com extremidade no interior da veia cava superior.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cateter femoral à XXX.": {
+    "prefix": "#cfem",
+    "body": "Cateter femoral à XXX.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequenas áreas periféricas de retração focal do parênquima renal bilaterais.": {
+    "prefix": "#cicatrizes",
+    "body": "Pequenas áreas periféricas de retração focal do parênquima renal bilaterais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Alterações cicatriciais renais discretas bilaterais.": {
+    "prefix": "#cicatrizesc",
+    "body": "Alterações cicatriciais renais discretas bilaterais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cateter venoso de longa permanência implantado no subcutâneo da parede torácica à XXX, com extremidade distal na veia cava superior.": {
+    "prefix": "#cimp",
+    "body": "Cateter venoso de longa permanência implantado no subcutâneo da parede torácica à XXX, com extremidade distal na veia cava superior.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Fígado com contornos irregulares, apresentando sinais de redistribuição volumétrica, caracterizados por aumento dos lobos esquerdo e caudado em relação ao direito. Parênquima levemente heterogêneo.": {
+    "prefix": "#cirrose",
+    "body": "Fígado com contornos irregulares, apresentando sinais de redistribuição volumétrica, caracterizados por aumento dos lobos esquerdo e caudado em relação ao direito. Parênquima levemente heterogêneo.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequeno cisto pulmonar de paredes finas e conteúdo aéreo no XXX.": {
+    "prefix": "#cistop",
+    "body": "Pequeno cisto pulmonar de paredes finas e conteúdo aéreo no XXX.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequeno cisto pulmonar de paredes finas e conteúdo aéreo esparsos bilaterais.": {
+    "prefix": "#cistosp",
+    "body": "Pequeno cisto pulmonar de paredes finas e conteúdo aéreo esparsos bilaterais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "cm³": {
+    "prefix": "#cm3",
+    "body": "cm³",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cateter nasoentérico.": {
+    "prefix": "#cne",
+    "body": "Cateter nasoentérico.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cateter nasogástrico.": {
+    "prefix": "#cng",
+    "body": "Cateter nasogástrico.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Sinais de congestão pulmonar, caracterizados por leve aumento difuso da atenuação do parênquima, espessamento liso de paredes brônquicas, de septos interlobulares nos ápices e bases e de fissuras interlobares, além de derrame pleural bilateral, pequeno à direita e laminar à esquerda.\n": {
+    "prefix": "#congestao",
+    "body": [
+      "Sinais de congestão pulmonar, caracterizados por leve aumento difuso da atenuação do parênquima, espessamento liso de paredes brônquicas, de septos interlobulares nos ápices e bases e de fissuras interlobares, além de derrame pleural bilateral, pequeno à direita e laminar à esquerda.",
+      ""
+    ],
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Coração de dimensões usuais, com contornos preservados.": {
+    "prefix": "#coracao",
+    "body": "Coração de dimensões usuais, com contornos preservados.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "O estudo por ressonância magnética pode fornecer informações adicionais.": {
+    "prefix": "#corrm",
+    "body": "O estudo por ressonância magnética pode fornecer informações adicionais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "A critério clínico, complementar com estudo ultrassonográfico direcionado.": {
+    "prefix": "#corrus",
+    "body": "A critério clínico, complementar com estudo ultrassonográfico direcionado.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequeno cisto cortical simples no rim XXX.": {
+    "prefix": "#cr",
+    "body": "Pequeno cisto cortical simples no rim XXX.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cistos renais corticais homogêneos bilaterais.": {
+    "prefix": "#crb",
+    "body": "Cistos renais corticais homogêneos bilaterais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cistos corticais homogêneos hipoatenuantes bilaterais, medindo até XXX mm no rim direito e XXX mm no rim esquerdo.": {
+    "prefix": "#crb2",
+    "body": "Cistos corticais homogêneos hipoatenuantes bilaterais, medindo até XXX mm no rim direito e XXX mm no rim esquerdo.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cistos renais simples bilaterais (Bosniak I).": {
+    "prefix": "#crbc",
+    "body": "Cistos renais simples bilaterais (Bosniak I).",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequenos cistos renais homogêneos no rim XXX.": {
+    "prefix": "#crx",
+    "body": "Pequenos cistos renais homogêneos no rim XXX.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cisto renal simples à XXX (Bosniak I).": {
+    "prefix": "#crxc",
+    "body": "Cisto renal simples à XXX (Bosniak I).",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Discretas opacidades pulmonares subpleurais posteriores, relacionadas à estase de decúbito.": {
+    "prefix": "#decubito",
+    "body": "Discretas opacidades pulmonares subpleurais posteriores, relacionadas à estase de decúbito.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Alterações degenerativas na coluna lombar.": {
+    "prefix": "#degcll",
+    "body": "Alterações degenerativas na coluna lombar.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Alterações degenerativas na coluna torácica.": {
+    "prefix": "#degclt",
+    "body": "Alterações degenerativas na coluna torácica.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Alterações degenerativas nas colunas torácica e lombar.": {
+    "prefix": "#degcltcll",
+    "body": "Alterações degenerativas nas colunas torácica e lombar.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Alterações degenerativas no arcabouço ósseo estudado.": {
+    "prefix": "#degen",
+    "body": "Alterações degenerativas no arcabouço ósseo estudado.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Alterações degenerativas exuberantes no arcabouço ósseo estudado.": {
+    "prefix": "#degene",
+    "body": "Alterações degenerativas exuberantes no arcabouço ósseo estudado.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Demais estruturas pélvicas sem particularidades.\n": {
+    "prefix": "#demaispelve",
+    "body": [
+      "Demais estruturas pélvicas sem particularidades.",
+      ""
+    ],
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Diastase da musculatura reto abdominal, com ventres musculares distando XXX mm entre si.": {
+    "prefix": "#diastase",
+    "body": "Diastase da musculatura reto abdominal, com ventres musculares distando XXX mm entre si.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "direito": {
+    "prefix": "#dir",
+    "body": "direito",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Dispositivo intrauterino na cavidade uterina.": {
+    "prefix": "#diu",
+    "body": "Dispositivo intrauterino na cavidade uterina.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Divertículos cólicos esparsos, sem sinais inflamatórios associados.": {
+    "prefix": "#div",
+    "body": "Divertículos cólicos esparsos, sem sinais inflamatórios associados.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Divertículos cólicos, sem sinais inflamatórios associados.": {
+    "prefix": "#divc",
+    "body": "Divertículos cólicos, sem sinais inflamatórios associados.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequeno derrame pleural à XXX, associado a leve atelectasia do parênquima adjacente. ﻿": {
+    "prefix": "#dp2",
+    "body": "Pequeno derrame pleural à XXX, associado a leve atelectasia do parênquima adjacente. ﻿",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequeno derrame pleural bilateral, associado a leve atelectasia subpleural do parênquima adjacente.": {
+    "prefix": "#dpb",
+    "body": "Pequeno derrame pleural bilateral, associado a leve atelectasia subpleural do parênquima adjacente.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequeno derrame pericárdico.": {
+    "prefix": "#dperi",
+    "body": "Pequeno derrame pericárdico.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Sinais de DPOC, caracterizados por doença pulmonar enfisematosa centrolobular, com componente parasseptal, e sinais de broncopatia inflamatória. ": {
+    "prefix": "#dpocc",
+    "body": "Sinais de DPOC, caracterizados por doença pulmonar enfisematosa centrolobular, com componente parasseptal, e sinais de broncopatia inflamatória. ",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "exceto por ateromatose aórtica incipiente.": {
+    "prefix": "#eaa",
+    "body": "exceto por ateromatose aórtica incipiente.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Densificação difusa do tecido subcutâneo, inferindo edema.": {
+    "prefix": "#edemasub",
+    "body": "Densificação difusa do tecido subcutâneo, inferindo edema.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Edema difuso do tecido subcutâneo.": {
+    "prefix": "#edemasubc",
+    "body": "Edema difuso do tecido subcutâneo.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "(estudo não direcionado).": {
+    "prefix": "#end",
+    "body": "(estudo não direcionado).",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Áreas de enfisema pulmonar centrolobular, predominando nos lobos superiores, com componente parasseptal.": {
+    "prefix": "#enfisema",
+    "body": "Áreas de enfisema pulmonar centrolobular, predominando nos lobos superiores, com componente parasseptal.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Doença pulmonar enfisematosa centrolobular, com componente parasseptal.": {
+    "prefix": "#enfisemac",
+    "body": "Doença pulmonar enfisematosa centrolobular, com componente parasseptal.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Espessamento pleuroapical bilateral, de aspecto residual.": {
+    "prefix": "#epa",
+    "body": "Espessamento pleuroapical bilateral, de aspecto residual.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Espessamento liso difuso de paredes brônquicas, de aspecto inflamatório.": {
+    "prefix": "#epb",
+    "body": "Espessamento liso difuso de paredes brônquicas, de aspecto inflamatório.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Sinais de broncopatia inflamatória, caracterizados por espessamento liso difuso de paredes brônquicas com impactação mucoide em pequenas vias aéreas nos lobos inferiores. ": {
+    "prefix": "#epb2c",
+    "body": "Sinais de broncopatia inflamatória, caracterizados por espessamento liso difuso de paredes brônquicas com impactação mucoide em pequenas vias aéreas nos lobos inferiores. ",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Sinais de broncopatia inflamatória.": {
+    "prefix": "#epbc",
+    "body": "Sinais de broncopatia inflamatória.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Bexiga com paredes difusamente espessadas, devendo corresponder a bexiga de esforço.": {
+    "prefix": "#esforco",
+    "body": "Bexiga com paredes difusamente espessadas, devendo corresponder a bexiga de esforço.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "esquerdo": {
+    "prefix": "#esq",
+    "body": "esquerdo",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Fígado de dimensões usuais e contornos regulares, apresentando densidade difusamente reduzida, compatível com esteatose.": {
+    "prefix": "#esteatose",
+    "body": "Fígado de dimensões usuais e contornos regulares, apresentando densidade difusamente reduzida, compatível com esteatose.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Fígado de dimensões usuais e contornos regulares, apresentando densidade homogeneamente reduzida, compatível com esteatose. Parênquima homogêneo.": {
+    "prefix": "#esteatose2",
+    "body": "Fígado de dimensões usuais e contornos regulares, apresentando densidade homogeneamente reduzida, compatível com esteatose. Parênquima homogêneo.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequenas estrias fibroatelectásicas periféricas nas bases pulmonares.": {
+    "prefix": "#estrias",
+    "body": "Pequenas estrias fibroatelectásicas periféricas nas bases pulmonares.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Estrias atelectásicas posteriores nos lobos inferiores, associadas a redução volumétrica desses lobos.": {
+    "prefix": "#estriasp",
+    "body": "Estrias atelectásicas posteriores nos lobos inferiores, associadas a redução volumétrica desses lobos.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Fígado de dimensões usuais, contornos regulares e densidade homogênea.": {
+    "prefix": "#figado",
+    "body": "Fígado de dimensões usuais, contornos regulares e densidade homogênea.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Exame disponível na internet.": {
+    "prefix": "#fim",
+    "body": "Exame disponível na internet.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Flebólitos pélvicos.": {
+    "prefix": "#fl",
+    "body": "Flebólitos pélvicos.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequeno granuloma calcificado no XXX, de aspecto residual/sequelar.": {
+    "prefix": "#granuloma",
+    "body": "Pequeno granuloma calcificado no XXX, de aspecto residual/sequelar.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequenos granulomas calcificados esparsos bilaterais, de aspecto residual/sequelar.": {
+    "prefix": "#granulomas",
+    "body": "Pequenos granulomas calcificados esparsos bilaterais, de aspecto residual/sequelar.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequena hérnia hiatal por deslizamento.": {
+    "prefix": "#hhiat",
+    "body": "Pequena hérnia hiatal por deslizamento.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequena protrusão de gordura intra-abdominal através do canal inguinal bilateral, sem sinais inflamatórios associados.": {
+    "prefix": "#hing",
+    "body": "Pequena protrusão de gordura intra-abdominal através do canal inguinal bilateral, sem sinais inflamatórios associados.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Hiperostose frontal interna benigna.": {
+    "prefix": "#hiperostose",
+    "body": "Hiperostose frontal interna benigna.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Aumento do calibre do tronco da artéria pulmonar, podendo corresponder a algum grau de hipertensão pulmonar.": {
+    "prefix": "#hp",
+    "body": "Aumento do calibre do tronco da artéria pulmonar, podendo corresponder a algum grau de hipertensão pulmonar.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Tronco da artéria pulmonar com calibre no limite superior da normalidade.": {
+    "prefix": "#hpi",
+    "body": "Tronco da artéria pulmonar com calibre no limite superior da normalidade.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequena protrusão de gordura intra-abdominal através da cicatriz umbilical, com colo de XXX mm, sem sinais inflamatórios associados.": {
+    "prefix": "#humb",
+    "body": "Pequena protrusão de gordura intra-abdominal através da cicatriz umbilical, com colo de XXX mm, sem sinais inflamatórios associados.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequena hérnia umbilical, sem sinais de complicações.": {
+    "prefix": "#humbc",
+    "body": "Pequena hérnia umbilical, sem sinais de complicações.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "IMPRESSÃO:": {
+    "prefix": "#i",
+    "body": "IMPRESSÃO:",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Informe clínico: XXX. ": {
+    "prefix": "#ic",
+    "body": "Informe clínico: XXX. ",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequena hipodensidade nucleocapsular circunscrita à XXX, com atenuação liquórica, podendo corresponder a alteração sequelar de lacuna isquêmica ou a espaço perivascular alargado.": {
+    "prefix": "#lacuna",
+    "body": "Pequena hipodensidade nucleocapsular circunscrita à XXX, com atenuação liquórica, podendo corresponder a alteração sequelar de lacuna isquêmica ou a espaço perivascular alargado.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequenas hipodensidades nucleocapsulares circunscritas bilaterais, com atenuação liquórica, podendo corresponder a alterações sequelares de lacunas isquêmicas ou a espaços perivasculares alargados.": {
+    "prefix": "#lacunas",
+    "body": "Pequenas hipodensidades nucleocapsulares circunscritas bilaterais, com atenuação liquórica, podendo corresponder a alterações sequelares de lacunas isquêmicas ou a espaços perivasculares alargados.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Múltiplas pequenas hipodensidades nucleocapsulares bilaterais, que devem resultar da coexistência de espaços de Virchow-Robin alargados e/ou de pequenos focos lacunares sequelares.": {
+    "prefix": "#lacunasc",
+    "body": "Múltiplas pequenas hipodensidades nucleocapsulares bilaterais, que devem resultar da coexistência de espaços de Virchow-Robin alargados e/ou de pequenos focos lacunares sequelares.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cicatriz de laparotomia mediana": {
+    "prefix": "#lapa",
+    "body": "Cicatriz de laparotomia mediana",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "(L x AP x T)": {
+    "prefix": "#lapt",
+    "body": "(L x AP x T)",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Persistência de lobulações fetais bilateralmente (variação anatômica).": {
+    "prefix": "#lfet",
+    "body": "Persistência de lobulações fetais bilateralmente (variação anatômica).",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "lobo inferior direito": {
+    "prefix": "#lid",
+    "body": "lobo inferior direito",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "lobo inferior esquerdo": {
+    "prefix": "#lie",
+    "body": "lobo inferior esquerdo",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequena quantidade de líquido livre na cavidade.": {
+    "prefix": "#liq",
+    "body": "Pequena quantidade de líquido livre na cavidade.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Quantidade fisiológica de líquido livre na pelve.": {
+    "prefix": "#liqf",
+    "body": "Quantidade fisiológica de líquido livre na pelve.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Espondilólise bilateral de L5 associada a anterolistese grau I de L5 sobre S1.": {
+    "prefix": "#listese",
+    "body": "Espondilólise bilateral de L5 associada a anterolistese grau I de L5 sobre S1.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "lobo médio": {
+    "prefix": "#lm",
+    "body": "lobo médio",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Linfonodomegalia na cadeia XXX, medindo XXX mm no eixo axial curto.": {
+    "prefix": "#lnf",
+    "body": "Linfonodomegalia na cadeia XXX, medindo XXX mm no eixo axial curto.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pequenos linfonodos com focos de calcificação, de aspecto residual/sequelar.": {
+    "prefix": "#lnfcalcif",
+    "body": "Pequenos linfonodos com focos de calcificação, de aspecto residual/sequelar.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "lobo pulmonar inferior direito": {
+    "prefix": "#lpid",
+    "body": "lobo pulmonar inferior direito",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "lobo pulmonar inferior esquerdo": {
+    "prefix": "#lpie",
+    "body": "lobo pulmonar inferior esquerdo",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "lobo pulmonar médio": {
+    "prefix": "#lpm",
+    "body": "lobo pulmonar médio",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "lobo pulmonar superior direito": {
+    "prefix": "#lpsd",
+    "body": "lobo pulmonar superior direito",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "lobo pulmonar superior esquerdo": {
+    "prefix": "#lpse",
+    "body": "lobo pulmonar superior esquerdo",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "lobo superior direito": {
+    "prefix": "#lsd",
+    "body": "lobo superior direito",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "lobo superior esquerdo": {
+    "prefix": "#lse",
+    "body": "lobo superior esquerdo",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Marca-passo implantado no subcutâneo da região peitoral XXX, com eletrodos no interior das câmaras direitas.": {
+    "prefix": "#marcapasso",
+    "body": "Marca-passo implantado no subcutâneo da região peitoral XXX, com eletrodos no interior das câmaras direitas.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Microcálculo no XXX do rim XXX, medindo XXX mm.": {
+    "prefix": "#mcalc",
+    "body": "Microcálculo no XXX do rim XXX, medindo XXX mm.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Micronefrolitíase à XXX, sem sinais obstrutivos.": {
+    "prefix": "#mcalcc",
+    "body": "Micronefrolitíase à XXX, sem sinais obstrutivos.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Focos de redução da atenuação da substância branca supratentorial periventricular, sem efeito expansivo.": {
+    "prefix": "#microangio",
+    "body": "Focos de redução da atenuação da substância branca supratentorial periventricular, sem efeito expansivo.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Sinais de microangiopatia/gliose na substância branca cerebral.": {
+    "prefix": "#microangioc",
+    "body": "Sinais de microangiopatia/gliose na substância branca cerebral.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Micronódulos pulmonares esparsos pelo parênquima bilateralmente, menores que 4 mm, incaracterísticos.": {
+    "prefix": "#micronodulos",
+    "body": "Micronódulos pulmonares esparsos pelo parênquima bilateralmente, menores que 4 mm, incaracterísticos.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Micronódulos pulmonares (< 6 mm) em pacientes de baixo risco, são de baixa suspeição, e não necessitam de seguimento tomográfico. [Bueno J, Landeras L, Chung J. Updated Fleischner Society Guidelines for Managing Incidental Pulmonary Nodules: Common Questions and Challenging Scenarios. Radiographics. 2018;38(5):1337-50. doi:10.1148/rg.2018180017 - Pubmed].": {
+    "prefix": "#micronodulos2",
+    "body": "Micronódulos pulmonares (< 6 mm) em pacientes de baixo risco, são de baixa suspeição, e não necessitam de seguimento tomográfico. [Bueno J, Landeras L, Chung J. Updated Fleischner Society Guidelines for Managing Incidental Pulmonary Nodules: Common Questions and Challenging Scenarios. Radiographics. 2018;38(5):1337-50. doi:10.1148/rg.2018180017 - Pubmed].",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Parênquima pulmonar com atenuação em mosaico, podendo corresponder distúrbio perfusional ou a aprisionamento aéreo.": {
+    "prefix": "#mosaico",
+    "body": "Parênquima pulmonar com atenuação em mosaico, podendo corresponder distúrbio perfusional ou a aprisionamento aéreo.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Nefrolitíase bilateral, sem sinais obstrutivos.": {
+    "prefix": "#nefro",
+    "body": "Nefrolitíase bilateral, sem sinais obstrutivos.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ausência de achados de significado patológico detectáveis por este método de imagem.": {
+    "prefix": "#normal",
+    "body": "Ausência de achados de significado patológico detectáveis por este método de imagem.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "º": {
+    "prefix": "#oo",
+    "body": "º",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Fígado, vesícula biliar, baço, pâncreas, rins, adrenais e bexiga sem alterações tomográficas significativas.": {
+    "prefix": "#orgaos",
+    "body": "Fígado, vesícula biliar, baço, pâncreas, rins, adrenais e bexiga sem alterações tomográficas significativas.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Estrutura óssea íntegra.": {
+    "prefix": "#osso2",
+    "body": "Estrutura óssea íntegra.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ausência de lesões ósseas suspeitas.": {
+    "prefix": "#osso3",
+    "body": "Ausência de lesões ósseas suspeitas.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Heterogeneidade óssea difusa, com áreas de densificação e de osteopenia, determinando desarranjo trabecular, inferindo componente de osteodistrofia renal.": {
+    "prefix": "#osteodistrofia",
+    "body": "Heterogeneidade óssea difusa, com áreas de densificação e de osteopenia, determinando desarranjo trabecular, inferindo componente de osteodistrofia renal.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Sequela de fratura crônica na região metadiafisária proximal do fêmur bilateral, com significativo desalinhamento e irregularidade das margens ósseas, observando-se luxação proximal do fêmur em relação ao acetábulo, com maior acometimento à esquerda, apresentando alteração morfoestrutural/deformidade de ambas as cabeças femorais. Associa-se reação córtico-periosteal dos ilíacos e ossificações crônicas em partes moles locais bilaterais, medindo até 5,2 cm na região peritroncatérica esquerda.\nSinais sugestivas de osteomielite crônica nos terços proximal da diáfise do fêmur bilateral, caracterizado por espessamento córtico-periosteal crônico, significativa irregularidade das margens ósseas da fratura, calcificações intramedulares na diáfise femoral, obliteração com densificação da medula óssea e dos planos mioadiposos circunjacentes, bem como realce pelo meio de contraste, sem evidências de coleções drenáveis.\nIrregularidade óssea subcondral do acetábulo, associado a evidente derrame articular com pequenos fragmentos ósseos de permeio. \nDemais estruturas ósseas sem caracterização de alterações significativas.  \nVolumoso derrame articular no quadril bilateral, com realce pelo meio de contraste, achados estes sugestivos de processo infeccioso/inflamatório.\nAtrofia e lipossubstituição dos ventres musculares do abdome inferior e dos membros inferiores caracterizados.\nTrajetos vasculares sem alterações significativas.": {
+    "prefix": "#osteomielite",
+    "body": [
+      "Sequela de fratura crônica na região metadiafisária proximal do fêmur bilateral, com significativo desalinhamento e irregularidade das margens ósseas, observando-se luxação proximal do fêmur em relação ao acetábulo, com maior acometimento à esquerda, apresentando alteração morfoestrutural/deformidade de ambas as cabeças femorais. Associa-se reação córtico-periosteal dos ilíacos e ossificações crônicas em partes moles locais bilaterais, medindo até 5,2 cm na região peritroncatérica esquerda.",
+      "Sinais sugestivas de osteomielite crônica nos terços proximal da diáfise do fêmur bilateral, caracterizado por espessamento córtico-periosteal crônico, significativa irregularidade das margens ósseas da fratura, calcificações intramedulares na diáfise femoral, obliteração com densificação da medula óssea e dos planos mioadiposos circunjacentes, bem como realce pelo meio de contraste, sem evidências de coleções drenáveis.",
+      "Irregularidade óssea subcondral do acetábulo, associado a evidente derrame articular com pequenos fragmentos ósseos de permeio. ",
+      "Demais estruturas ósseas sem caracterização de alterações significativas.  ",
+      "Volumoso derrame articular no quadril bilateral, com realce pelo meio de contraste, achados estes sugestivos de processo infeccioso/inflamatório.",
+      "Atrofia e lipossubstituição dos ventres musculares do abdome inferior e dos membros inferiores caracterizados.",
+      "Trajetos vasculares sem alterações significativas."
+    ],
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pâncreas com dimensões usuais e estrutura anatômica, sem dilatação do duto principal.": {
+    "prefix": "#pancreas",
+    "body": "Pâncreas com dimensões usuais e estrutura anatômica, sem dilatação do duto principal.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pâncreas difusamente espessado, com maior diâmetro na cauda (34 mm), associado a importante densificação peripancreática e pequena quantidade de líquido circunjacente, por vezes loculado, bem como múltiplas formações micronodulares acometendo a gordura da raiz mesentérica e em situação justa-peritoneal, compatíveis com esteatonecrose. Não há evidência de achados sugestivos de necrose pancreática.": {
+    "prefix": "#pancreatite",
+    "body": "Pâncreas difusamente espessado, com maior diâmetro na cauda (34 mm), associado a importante densificação peripancreática e pequena quantidade de líquido circunjacente, por vezes loculado, bem como múltiplas formações micronodulares acometendo a gordura da raiz mesentérica e em situação justa-peritoneal, compatíveis com esteatonecrose. Não há evidência de achados sugestivos de necrose pancreática.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Tênue densificação dos planos adiposos da raiz do mesentério associada a proeminência de linfonodos locorregionais, achados sugestivos de paniculite, entretanto usualmente sem significado clínico.": {
+    "prefix": "#paniculite",
+    "body": "Tênue densificação dos planos adiposos da raiz do mesentério associada a proeminência de linfonodos locorregionais, achados sugestivos de paniculite, entretanto usualmente sem significado clínico.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pulmões hipoinsuflados.": {
+    "prefix": "#phipo",
+    "body": "Pulmões hipoinsuflados.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Reticulação pulmonar com distribuição periférica e peribroncovascular, simétrica, predominando nas bases, sem faveolamento, associada importante redução volumétrica das porções acometidas nas bases pulmonares, distorção arquitetural do parênquima, bronquiectasias, além de tênues áreas de atenuação em vidro fosco nessas regiões.": {
+    "prefix": "#pine",
+    "body": "Reticulação pulmonar com distribuição periférica e peribroncovascular, simétrica, predominando nas bases, sem faveolamento, associada importante redução volumétrica das porções acometidas nas bases pulmonares, distorção arquitetural do parênquima, bronquiectasias, além de tênues áreas de atenuação em vidro fosco nessas regiões.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.": {
+    "prefix": "#pos",
+    "body": "A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pâncreas parcialmente lipossubstituído, com dimensões usuais e estrutura anatômica, sem dilatação do duto principal.": {
+    "prefix": "#ppl",
+    "body": "Pâncreas parcialmente lipossubstituído, com dimensões usuais e estrutura anatômica, sem dilatação do duto principal.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Pelves globosas extrarrenais bilaterais (variação anatômica).": {
+    "prefix": "#preb",
+    "body": "Pelves globosas extrarrenais bilaterais (variação anatômica).",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Parênquima pulmonar com densidade tomográfica usual, sem sinais de nódulos ou consolidações.": {
+    "prefix": "#pulmao",
+    "body": "Parênquima pulmonar com densidade tomográfica usual, sem sinais de nódulos ou consolidações.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "rim direito": {
+    "prefix": "#rd",
+    "body": "rim direito",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "rim esquerdo": {
+    "prefix": "#re",
+    "body": "rim esquerdo",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ausência de realce anômalo pelo contraste.": {
+    "prefix": "#realce",
+    "body": "Ausência de realce anômalo pelo contraste.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Estudo tecnicamente prejudicado por artefatos de movimentação respiratória.": {
+    "prefix": "#resp",
+    "body": "Estudo tecnicamente prejudicado por artefatos de movimentação respiratória.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "medindo XXX do terço XXX do rim XXX": {
+    "prefix": "#rim",
+    "body": "medindo XXX do terço XXX do rim XXX",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Rins tópicos, de dimensões, estrutura e contornos usuais. Ausência de hidronefrose. Espaços perirrenais livres.": {
+    "prefix": "#rins",
+    "body": "Rins tópicos, de dimensões, estrutura e contornos usuais. Ausência de hidronefrose. Espaços perirrenais livres.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "O restante do parênquima cerebral tem atenuação usual.": {
+    "prefix": "#rpctc2",
+    "body": "O restante do parênquima cerebral tem atenuação usual.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "O restante do parênquima pulmonar tem densidade tomográfica usual.": {
+    "prefix": "#rpp",
+    "body": "O restante do parênquima pulmonar tem densidade tomográfica usual.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "O restante do parênquima pulmonar tem densidade tomográfica usual, sem sinais de nódulos pulmonares suspeitos ou maiores que 4 mm.": {
+    "prefix": "#rpp2",
+    "body": "O restante do parênquima pulmonar tem densidade tomográfica usual, sem sinais de nódulos pulmonares suspeitos ou maiores que 4 mm.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Rim direito": {
+    "prefix": "#rrd",
+    "body": "Rim direito",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Rim esquerdo": {
+    "prefix": "#rre",
+    "body": "Rim esquerdo",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Acentuação global dos sulcos e fissuras encefálicas em detrimento do volume do parênquima, associada a ectasia compensatória do sistema ventricular, sem sinais de hipertensão liquórica.": {
+    "prefix": "#rvol",
+    "body": "Acentuação global dos sulcos e fissuras encefálicas em detrimento do volume do parênquima, associada a ectasia compensatória do sistema ventricular, sem sinais de hipertensão liquórica.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Redução global do volume do parênquima encefálico, sem evidências de atrofia predominante.": {
+    "prefix": "#rvolc",
+    "body": "Redução global do volume do parênquima encefálico, sem evidências de atrofia predominante.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Técnica do exame: Realizadas aquisições volumétricas com posteriores reconstruções multiplanares. Imagens obtidas sem uso de meio de contraste endovenoso.": {
+    "prefix": "#s",
+    "body": "Técnica do exame: Realizadas aquisições volumétricas com posteriores reconstruções multiplanares. Imagens obtidas sem uso de meio de contraste endovenoso.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ausência de derrame pleural.": {
+    "prefix": "#sdp",
+    "body": "Ausência de derrame pleural.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ausência de derrame pleural ou de pneumotórax.": {
+    "prefix": "#sdpt",
+    "body": "Ausência de derrame pleural ou de pneumotórax.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Alterações senescentes do tórax, caracterizadas por redução da complexidade do parênquima, discreta reticulação subpleural, bandas parenquimatosas, raros micronódulos pulmonares menores que 4 mm, calcificações nas paredes das vias aéreas, tendência ao colapso da parede posterior da traqueia, calcificações nas cartilagens esternocostais, sarcopenia, e osteofitose na coluna torácica.": {
+    "prefix": "#senescentes",
+    "body": "Alterações senescentes do tórax, caracterizadas por redução da complexidade do parênquima, discreta reticulação subpleural, bandas parenquimatosas, raros micronódulos pulmonares menores que 4 mm, calcificações nas paredes das vias aéreas, tendência ao colapso da parede posterior da traqueia, calcificações nas cartilagens esternocostais, sarcopenia, e osteofitose na coluna torácica.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ausência de hidronefrose.": {
+    "prefix": "#shidro",
+    "body": "Ausência de hidronefrose.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ausência de líquido livre na cavidade.": {
+    "prefix": "#sliq",
+    "body": "Ausência de líquido livre na cavidade.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ausência de linfonodomegalias.": {
+    "prefix": "#slnf",
+    "body": "Ausência de linfonodomegalias.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ausência de pneumoperitôneo.": {
+    "prefix": "#sp",
+    "body": "Ausência de pneumoperitôneo.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Ausência de pneumoperitôneo ou de líquido livre na cavidade.": {
+    "prefix": "#spl",
+    "body": "Ausência de pneumoperitôneo ou de líquido livre na cavidade.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "ChatGPT said:Reproduza fielmente a interface do aplicativo Falcon MD v5.1.1 (2025.10.14), com layout dividido em três colunas: a primeira é a sidebar fixa com o título “Falcon MD”, seções Library, Falcon Solutions e Sources na ordem exata, contendo itens como All Studies (selecionado com contagem à direita), Interesting Cases, Add new album, Falcon Cloud, Falcon Link, Falcon Link Messages, Add new DICOM Node e Activity (“No Activity”), além do rodapé com “Falcon MD v5.1.1 (2025.10.14)” e Settings; o botão “+” deve aparecer apenas na seção All Studies. A segunda coluna exibe a lista de estudos com título “All Studies”, barra de busca, botões “+” (Add Study) e toggle de layout (grid/list), e uma lista vertical onde cada item mostra nome do paciente, ID, modalidade, Accession Number, data, miniatura e contagem de imagens. A terceira coluna mostra os detalhes do estudo selecionado, com cabeçalho contendo nome, modalidade à esquerda e data à direita, campo de busca e lista de séries com miniatura, nome, número de imagens e ícone de opções. O tema é escuro (#0E0E11), cartões cinza-escuro (#1C1C22), textos brancos e cinza-claro, tipografia SF Pro Display, ícones finos, miniaturas quadradas e bordas suaves. O layout deve ter margens internas de 20-24 px, espaçamento vertical de 12-16 px e transições discretas. “All Studies” e “Study Details” devem ser colunas independentes e alinhadas; o estudo abre à direita sem substituir a lista; o botão de alternância de layout fica na barra superior ao lado do “+”; a contagem de imagens aparece sempre à direita; o rodapé mantém a versão e o botão Settings fixo. Use os textos de exemplo “Sample Cardiac (M)” e “CT – unnamed / Accession #: 888111888 / 372 images” para a simulação.": {
+    "prefix": "#test",
+    "body": "ChatGPT said:Reproduza fielmente a interface do aplicativo Falcon MD v5.1.1 (2025.10.14), com layout dividido em três colunas: a primeira é a sidebar fixa com o título “Falcon MD”, seções Library, Falcon Solutions e Sources na ordem exata, contendo itens como All Studies (selecionado com contagem à direita), Interesting Cases, Add new album, Falcon Cloud, Falcon Link, Falcon Link Messages, Add new DICOM Node e Activity (“No Activity”), além do rodapé com “Falcon MD v5.1.1 (2025.10.14)” e Settings; o botão “+” deve aparecer apenas na seção All Studies. A segunda coluna exibe a lista de estudos com título “All Studies”, barra de busca, botões “+” (Add Study) e toggle de layout (grid/list), e uma lista vertical onde cada item mostra nome do paciente, ID, modalidade, Accession Number, data, miniatura e contagem de imagens. A terceira coluna mostra os detalhes do estudo selecionado, com cabeçalho contendo nome, modalidade à esquerda e data à direita, campo de busca e lista de séries com miniatura, nome, número de imagens e ícone de opções. O tema é escuro (#0E0E11), cartões cinza-escuro (#1C1C22), textos brancos e cinza-claro, tipografia SF Pro Display, ícones finos, miniaturas quadradas e bordas suaves. O layout deve ter margens internas de 20-24 px, espaçamento vertical de 12-16 px e transições discretas. “All Studies” e “Study Details” devem ser colunas independentes e alinhadas; o estudo abre à direita sem substituir a lista; o botão de alternância de layout fica na barra superior ao lado do “+”; a contagem de imagens aparece sempre à direita; o rodapé mantém a versão e o botão Settings fixo. Use os textos de exemplo “Sample Cardiac (M)” e “CT – unnamed / Accession #: 888111888 / 372 images” para a simulação.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "terço inferior ": {
+    "prefix": "#ti",
+    "body": "terço inferior ",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "terço médio ": {
+    "prefix": "#tm",
+    "body": "terço médio ",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Traqueostomia.": {
+    "prefix": "#tqt",
+    "body": "Traqueostomia.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Traqueia e brônquios principais com calibres usuais e paredes normoespessas.": {
+    "prefix": "#traqueia",
+    "body": "Traqueia e brônquios principais com calibres usuais e paredes normoespessas.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "terço superior": {
+    "prefix": "#ts",
+    "body": "terço superior",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Tubo endotraqueal.": {
+    "prefix": "#tubo",
+    "body": "Tubo endotraqueal.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Cálculo impactado no ureter XXX XXX, medindo XXX mm, situado a XXX mm da XXX, determinando XXX ectasia ureteropielocalicinal à montante, com pelve renal em AP medindo XXX mm. Coexiste leve densificação dos planos adiposos periureterais e perirrenais, provavelmente relacionada à obstrução aguda.": {
+    "prefix": "#ureterolitiase",
+    "body": "Cálculo impactado no ureter XXX XXX, medindo XXX mm, situado a XXX mm da XXX, determinando XXX ectasia ureteropielocalicinal à montante, com pelve renal em AP medindo XXX mm. Coexiste leve densificação dos planos adiposos periureterais e perirrenais, provavelmente relacionada à obstrução aguda.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "(variação anatômica).": {
+    "prefix": "#va",
+    "body": "(variação anatômica).",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Grandes vasos sem evidências de anormalidades.": {
+    "prefix": "#vasos",
+    "body": "Grandes vasos sem evidências de anormalidades.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Vesícula biliar com características habituais.": {
+    "prefix": "#vb",
+    "body": "Vesícula biliar com características habituais.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Vesícula biliar ausente.": {
+    "prefix": "#vba",
+    "body": "Vesícula biliar ausente.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Vesícula biliar ausente. Agrafos cirúrgicos na sua topografia.": {
+    "prefix": "#vba2",
+    "body": "Vesícula biliar ausente. Agrafos cirúrgicos na sua topografia.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Vesícula biliar contraída.": {
+    "prefix": "#vbc",
+    "body": "Vesícula biliar contraída.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Vesícula biliar com volume normal, apresentando cálculos no seu interior.": {
+    "prefix": "#vbca",
+    "body": "Vesícula biliar com volume normal, apresentando cálculos no seu interior.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Colecistolitíase, sem sinais tomográficos de colecistite.": {
+    "prefix": "#vbcac",
+    "body": "Colecistolitíase, sem sinais tomográficos de colecistite.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "Vesícula biliar pouco repleta, sem anormalidades aparentes.": {
+    "prefix": "#vbp",
+    "body": "Vesícula biliar pouco repleta, sem anormalidades aparentes.",
+    "description": "Imported from Text_Substitutions.plist"
+  },
+  "On my way!": {
+    "prefix": "omw",
+    "body": "On my way!",
+    "description": "Imported from Text_Substitutions.plist"
+  }
+}

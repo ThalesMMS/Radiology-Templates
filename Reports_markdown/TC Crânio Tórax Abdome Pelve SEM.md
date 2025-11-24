@@ -1,0 +1,43 @@
+**TOMOGRAFIA DE CRÂNIO, TÓRAX, ABDOME E PELVE**
+
+**Técnica do exame:**
+Realizadas aquisições volumétricas com posteriores reconstruções multiplanares. Imagens obtidas sem uso de meio de contraste endovenoso.
+
+**Crânio:**
+Parênquima cerebral com coeficientes de atenuação normais. 
+Tronco cerebral preservado. Parênquima cerebelar preservado.
+Cisternas basais anatômicas. Fissuras e sulcos entre os giros corticais anatômicos.
+Sistema ventricular normoposicionado, com dimensões normais.
+Ausência de coleções extra-axiais ou de desvio de estruturas da linha mediana.
+Ausência de sinais de ateromatose.
+
+**Tórax:**
+Ausência de derrame pleural ou de pneumotórax.
+Pulmões com expansividade e atenuação usuais.
+Traqueia e os brônquios principais com trajeto e calibre habituais.
+Mediastino de aspecto usual.
+Ausência de linfonodomegalias.
+Coração de dimensões usuais, com contornos preservados.
+Aorta torácica com trajeto e calibre usuais.
+
+**Abdome e pelve:**
+Ausência de pneumoperitônio ou de líquido livre na cavidade.
+Fígado, baço e pâncreas com dimensões e forma preservadas, sem lesões parenquimatosas detectáveis.
+-Vesícula com características habituais.
+Adrenais de aspecto anatômico.
+Rins com morfologia preservada.
+Bexiga com aspecto tomográfico usual.
+Ausência de linfonodomegalias.
+Demais estruturas pélvicas sem alterações.
+Aorta abdominal com trajeto e calibre usuais.
+
+**Estrutura óssea:**
+Estrutura óssea íntegra.
+
+**IMPRESSÃO:**
+**Ausência de alterações significativas identificáveis por este método de imagem.**
+
+A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.  
+
+
+

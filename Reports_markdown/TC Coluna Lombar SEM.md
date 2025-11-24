@@ -1,0 +1,32 @@
+**TOMOGRAFIA COMPUTADORIZADA DE COLUNA LOMBAR**
+
+**Informe clínico:** XXX
+
+**Técnica do exame:**
+Aquisições volumétricas com reconstruções multiplanares, sem uso de contraste endovenoso.
+
+**Aspectos observados:**
+Eixo da coluna lombar preservado.
+
+Corpos vertebrais alinhados no plano sagital, com altura e morfologia preservadas.
+
+Estrutura óssea de densidade normal, sem evidências de lesões focais.
+
+Articulações interapofisárias com superfícies e espaços articulares preservados.
+
+Discos intervertebrais preservados, sem evidências de abaulamentos e/ou herniações.
+
+Gordura epidural preservada.
+
+Forames de conjugação com dimensões usuais.
+
+Recessos laterais livres.
+
+Canal vertebral com dimensões dentro da normalidade.
+
+**IMPRESSÃO:**
+**Ausência de alterações significativas identificáveis por este método de imagem.**
+
+*A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.* 
+
+

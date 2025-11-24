@@ -1,0 +1,23 @@
+**TOMOGRAFIA COMPUTADORIZADA DE SEIOS DA FACE**
+
+**Informe clínico:** XXX
+
+**Técnica do exame:**
+Realizadas aquisições volumétricas com posteriores reconstruções multiplanares. Imagens obtidas sem uso de meio de contraste endovenoso.
+
+**Aspectos observados:**
+Seios frontais bem aerados.
+Seios maxilares com transparência usual.
+Células etmoidais de densidade usual.
+Seios esfenoidais sem indícios de anormalidades.
+Septos intercelulares íntegros e lâmina papirácea preservada bilateralmente.
+Unidades óstio-meatais livres.
+Septo nasal sem desvio significativo.
+Conchas nasais anatômicas.
+Coluna aérea da rinofaringe apresentando permeabilidade normal.
+
+**IMPRESSÃO:**
+**Ausência de alterações significativas identificáveis por este método de imagem.**
+
+*A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.*
+

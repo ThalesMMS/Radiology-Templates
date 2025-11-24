@@ -1,0 +1,58 @@
+
+## INDICAÇÃO CLÍNICA: XXX
+
+## TÉCNICA DO EXAME:
+
+Aquisição volumétrica em tomógrafo multislice, antes e após a administração do meio de contraste endovenoso.
+
+Dose de radiação estimada (DLP): XXX mGy*cm.
+
+## ASPECTOS OBSERVADOS:
+
+Fígado de morfologia, contornos e dimensões preservadas com coeficientes de atenuação normais.
+
+Fígado tópico, de forma e dimensões conservadas, parênquima homogêneo,
+
+Veia porta e seus ramos pérvios, de calibre preservado.
+
+Ausência de dilatação das vias biliares intra ou extra-hepáticas.
+
+Vesícula biliar delineada.
+
+Pâncreas de morfologia, contornos e dimensões preservadas, com parênquima homogêneo.
+
+Rins tópicos, de forma e dimensões conservadas, parênquima homogêneo. Ausência de cálculos.
+
+Ausência de dilatação dos sistemas pielocalicinais e ureteres.
+
+Glândulas adrenais de configuração e espessura habituais.
+
+Baço de morfologia e dimensões preservadas, com coeficientes de atenuação normais.
+
+Veia cava inferior pérvia, de calibre habitual.
+
+Aorta abdominal pérvia, de calibre mantido.
+
+Aorta abdominal pérvia, de calibre mantido, apresentando placas ateromatosas parietais calcificadas difusamente.
+
+Ausência de linfonodomegalias abdômino-pélvicas.
+
+Próstata e vesículas seminais, contornos e dimensões preservadas, com densidade homogênea.
+
+Útero de morfologia, contornos e dimensões preservadas.
+
+Não visualizamos lesões expansivas em regiões anexiais.
+
+Bexiga de capacidade e contornos conservados.
+
+Ausência de líquido livre na cavidade abdominal.
+
+Estruturas ósseas sem alterações significativas.
+
+Alterações degenerativas da coluna vertebral.
+
+**IMPRESSÃO:**
+
+Tomografia computadorizada de abdome e pelve sem alterações evidentes.
+
+*Este é um diagnóstico de probabilidade com limitações inerentes ao método, devendo ser confrontado com dados clínicos e com outros exames de imagem e laboratoriais prévios e subseqüentes. Somente seu médico tem condições de interpretar este exame.*

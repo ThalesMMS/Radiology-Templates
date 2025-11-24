@@ -1,0 +1,23 @@
+**ANGIOTOMOGRAFIA COMPUTADORIZADA DO TÓRAX**
+
+**Técnica do exame:**
+Realizadas aquisições volumétricas com posteriores reconstruções multiplanares. Imagens obtidas durante a administração do meio de contraste endovenoso.
+
+**Aspectos observados à angiotomografia:**
+Vasos mediastinais com trajetos e calibres normais, não se identificando sinais de defeitos de enchimento nas artérias pulmonares, em ramos segmentares ou subsegmentares.
+Coração de tamanho normal.
+
+**Outros achados do tórax:**
+Ausência de derrame pleural.
+Parênquima pulmonar com densidade tomográfica usual, sem sinais de consolidações.
+Traqueia e brônquios principais sem alterações.
+Mediastino de aspecto anatômico.
+Ausência de linfonodomegalias.
+Estrutura óssea preservada.
+
+**IMPRESSÃO:**
+Estudo **negativo** para TEP.
+**Ausência de outras alterações significativas detectáveis por este método de imagem.**
+
+*A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.*
+

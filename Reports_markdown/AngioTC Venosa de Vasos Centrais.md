@@ -1,0 +1,37 @@
+**ANGIOTOMOGRAFIA VENOSA DE VASOS CENTRAIS**
+
+**Técnica de exame:** Acesso venoso na veia jugular externa esquerda. Exame realizado antes e após o uso de contraste iodado.
+
+**Aspectos observados:**
+Veia cava superior pérvia, normocontrastada.
+
+Falhas de enchimento na veia basílica proximal, na veia axilar, compatíveis com trombose venosa.
+Veias basílica proximal, axilar, subclávia e braquiocefálica direita pérvias. Veia jugular externa direita proximal pérvia.
+
+Afilamento do calibre da veia braquiocefálica esquerda, seguido de amputação ao nível da confluência das veias jugular externa esquerda e subclávia esquerda, provavelmente relacionados a trombose crônica da veia braquiocefálica esquerda. Destaca-se ainda trombose da veia jugular externa esquerda proximal.
+Estenose da veia braquiocefálica esquerda na maior parte de seu segmento, com calibre de cerca de 4 mm. Coexiste rede de colaterais de pequeno calibre envolvendo vasos superficiais na parede torácica esquerda, veias torácicas internas e plexo venoso vertebral posterior deste lado.
+Veia braquiocefálica esquerda pérvia, apresentando leve estreitamento de calibre ao nível da junção com a veia braquiocefálica contralateral, medindo 5,2 x 7,5 mm. Coexiste pequena rede de colaterais de pequeno calibre envolvendo a veia jugular externa e veias tireoideanas deste lado.
+
+Coexiste extensa rede de colaterais venosas caracterizadas por múltiplos pequenos vasos superficiais e tortuosos no braço esquerdo, região axilar e paredes torácica e abdominal esquerdas, através dos quais a drenagem venosa do membro superior esquerdo é realizada, envolvendo as veias torácicas internas esquerda e direita, veias intercostais esquerdas, veias peitorais esquerdas, vasos paravertebrais e sistema ázigos.
+
+Veia jugular interna direita e veia subclávia direita com calibres normais e normocontrastadas. Entretanto, observa-se estreitamento acentuado da veia braquiocefálica ao nível do 1° arco costal deste lado, com calibre de 3,8 x 8,4 mm. Coexiste rede de colaterais de pequeno calibre envolvendo vasos superficiais na parede torácica, veia torácica interna e plexo venoso vertebral posterior deste lado.
+Veias jugular interna direita, subclávia direita e braquiocefálica direita com calibres normais e normocontrastadas.
+Veia jugular interna esquerda pérvia e afilada. Veia subclávia esquerda pérvia, com calibre normal.
+Veia jugular interna esquerda com calibre normal, normocontrastada.
+
+Veia subclávia esquerda com calibre normal, porém hipocontrastada.
+
+Veias ázigos, cava inferior, veias hepáticas e vasos do sistema porta pérvios, com calibres normais.
+
+Oclusão completa da veia ilíaca externa esquerda. Drenagem do membro inferior esquerdo ocorre através de colaterais superficiais que se comunicam com vasos epigástricos inferiores, vasos da região glútea, intercostal e plexo venoso vertebral posterior lombar deste lado.
+Veia ilíaca comum direita pérvia, normocontrastada.
+
+Veias femoral direita e ilíaca externa direita pérvias, levemente hipocontrastadas inclusive nas fases tardias.
+Cateter femoral à esquerda com extremidade ao nível da veia ilíaca comum esquerda.
+Veias femoral, ilíaca externa e ilíaca comum direitas pérvias, normocontrastadas.
+
+**IMPRESSÃO:**
+**XXX﻿**
+
+*A impressão diagnóstica é de probabilidade, devendo ser considerada em conjunto com dados clínicos e laboratoriais, além de outros exames de imagem prévios e/ou subsequentes. Somente seu médico tem condições de interpretar o conjunto de todas estas informações.* 
+
