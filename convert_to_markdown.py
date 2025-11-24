@@ -236,7 +236,7 @@ def convert_rtf_to_markdown(rtf_path):
 
 def main():
     """Main function that processes all files inside the Reports folder."""
-    reports_dir = Path(__file__).parent / "Templates"
+    reports_dir = Path(__file__).parent / "Templates_docx"
     
     if not reports_dir.exists():
         print(f"Error: Folder {reports_dir} not found!")
