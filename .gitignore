@@ -1,3 +1,5 @@
 .DS_Store
 .vscode
 backup
+/report_template_converters/target
+/rust_converters/target

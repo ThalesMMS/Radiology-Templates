@@ -62,12 +62,14 @@ Scripts print progress and overwrite existing outputs; commit or back up generat
 Tip: run `python generate_index.py` before `python backup.py` to ensure the backup check uses a fresh index.
 
 ## Repository Structure
-- `convert_to_docx.py` – Markdown → DOCX generator with alignment/font rules.
-- `convert_to_markdown.py` – DOCX/RTF → Markdown converter.
-- `convert_to_txt.py` – Markdown (or DOCX via temp markdown) → TXT converter.
-- `convert_txt_to_markdown.py` – TXT → Markdown converter with heading/first/last-line rules.
-- `generate_index.py` – creates `reports_index.json` for DOCX/Markdown/TXT folders.
-- `backup.py` – moves files not present in `reports_index.json` into `backup/`.
+- `python_src/` – Python sources; thin wrappers remain at the repo root for compatibility.
+  - `convert_to_docx.py` – Markdown → DOCX generator with alignment/font rules.
+  - `convert_to_markdown.py` – DOCX/RTF → Markdown converter.
+  - `convert_to_txt.py` – Markdown (or DOCX via temp markdown) → TXT converter.
+  - `convert_txt_to_markdown.py` – TXT → Markdown converter with heading/first/last-line rules.
+  - `generate_index.py` – creates `reports_index.json` for DOCX/Markdown/TXT folders.
+  - `backup.py` – moves files not present in `reports_index.json` into `backup/`.
+- `rust_converters/` – Rust implementation of the converters (binaries land in `rust_converters/target/debug`).
 - `Templates_markdown/` – source Markdown templates.
 - `Templates_docx/` – DOCX output from Markdown (and DOCX input for md conversion).
 - `Templates_txt/` – TXT output.
