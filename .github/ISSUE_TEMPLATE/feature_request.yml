@@ -1,0 +1,39 @@
+name: Enhancement request
+description: Suggest a focused improvement to templates, docs, or conversion workflows
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please keep requests concrete and avoid sharing PHI or private medical content.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the smallest useful change.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Template content
+        - Python converter
+        - Rust converter
+        - Documentation
+        - Repository workflow
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Link related issues, examples, or de-identified samples if helpful.
