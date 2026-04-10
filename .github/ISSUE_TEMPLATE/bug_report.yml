@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a reproducible bug in template conversion or repository tooling
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a bug report.
+
+        Please do not attach real patient data, PHI, or identifying screenshots.
+  - type: dropdown
+    id: workflow
+    attributes:
+      label: Affected workflow
+      options:
+        - convert_to_docx
+        - convert_to_markdown
+        - convert_to_txt
+        - convert_txt_to_markdown
+        - generate_index
+        - backup
+        - other
+    validations:
+      required: true
+  - type: dropdown
+    id: implementation
+    attributes:
+      label: Implementation
+      options:
+        - Python
+        - Rust
+        - Both
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: Share the smallest safe set of steps or files needed to reproduce the problem.
+      placeholder: |
+        1. Run ...
+        2. Use this de-identified sample ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: macOS/Linux, Python version, Rust version, tool output
+    validations:
+      required: true

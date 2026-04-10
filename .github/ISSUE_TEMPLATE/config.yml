@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support and FAQ
+    url: https://github.com/ThalesMMS/Radiology-Templates/blob/main/SUPPORT.md
+    about: Read the support guide and FAQ before opening an issue.
+  - name: Security policy
+    url: https://github.com/ThalesMMS/Radiology-Templates/blob/main/SECURITY.md
+    about: Please use private reporting for security-sensitive issues.

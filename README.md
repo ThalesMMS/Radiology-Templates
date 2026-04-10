@@ -80,3 +80,10 @@ Tip: run `python generate_index.py` before `python backup.py` to ensure the back
 - DOCX → Markdown relies on Word styles (e.g., `Heading 1`) to infer heading levels; keep templates consistent.
 - RTF parsing uses heuristics; review new outputs when adding unfamiliar RTFs.
 - Rust parity: `cargo build` inside `rust_converters/` produces binaries equivalent to the Python scripts; `python test_equivalence.py` checks output identity across all tools (including `generate_index` and `backup`).
+
+## Community & Support
+- Read [SUPPORT.md](SUPPORT.md) for troubleshooting guidance and a short FAQ.
+- See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+- Review [SECURITY.md](SECURITY.md) for private vulnerability reporting.
+- All contributors are expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+- Please do not upload real patient data, PHI, or identifying screenshots in issues or pull requests.
