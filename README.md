@@ -75,6 +75,12 @@ Tip: run `python generate_index.py` before `python backup.py` to ensure the back
 - `Templates_docx/` – DOCX output from Markdown (and DOCX input for md conversion).
 - `Templates_txt/` – TXT output.
 
+## Versioning and releases
+- This repository is currently **prerelease-only**. Until the first stable release gate is met, use `v0.y.z` tags and publish GitHub releases as pre-releases.
+- Track user-visible changes in [CHANGELOG.md](CHANGELOG.md).
+- Follow [RELEASING.md](RELEASING.md) before cutting a tag or publishing a release.
+- Draft GitHub release notes are maintained automatically by `.github/workflows/release-drafter.yml`.
+
 ## Notes
 - Markdown parsing in `convert_to_docx.py` supports bold/italic markers and centers the first and last non-empty lines.
 - DOCX → Markdown relies on Word styles (e.g., `Heading 1`) to infer heading levels; keep templates consistent.

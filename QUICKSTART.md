@@ -6,10 +6,14 @@
 - macOS or Linux shell
 
 ## Install Python deps
-Most scripts auto-install `python-docx` and `striprtf` on first run. If you want to preinstall:
+Only `python_src/convert_to_markdown.py` attempts to auto-install `python-docx` and `striprtf` on first run; on externally managed Python installations it is safer to use a virtual environment explicitly:
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 python -m pip install python-docx striprtf
 ```
+
+If you prefer not to use a virtual environment, make sure your Python installation allows package installs before relying on `python_src/convert_to_markdown.py`'s auto-install path.
 
 ## Build Rust binaries
 ```bash
